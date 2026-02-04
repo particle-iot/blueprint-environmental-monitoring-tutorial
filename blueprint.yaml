@@ -2,20 +2,16 @@ slug: particle-environmental-monitoring
 type: Tutorial
 category: "Sensors and data collection"
 expertiseLevel: "Intermediate"
-tags: ["Sensors", "Monitoring", "Alerting", "Industrial", "Smart home"]
+tags: ["Sensors", "Industrial", "Time Series"]
 icon: assets/environmental-monitoring-tutorial.svg
 gitrepo: https://github.com/particle-iot/blueprint-environmental-monitoring-tutorial
 name: "Environmental monitoring tutorial"
 shortDescription: "A tutorial for measuring and storing environmental data with Particle devices."
 version: 1.0.1
 models: []
-language: [ "Particle Wiring", "JavaScript" ]
-cloudServices: 
-  - name: Ledger
-  - name: Logic
-  - name: Integrations
-  - name: Secure variables
-integrations: []
+language: ["C++", "JavaScript"]
+cloudServices: []
+integrations: ["Logic", "Ledger", "Cloud Secrets"]
 supportedDevices:
   - name: Boron
   - name: Argon
